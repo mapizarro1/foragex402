@@ -1,0 +1,16 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mapizarro1/foragex402",
+  "description": "Meta-search MCP server for x402 agent-payable services. Finds paid APIs, data feeds, file conversion, inference, scraping, and other pay-per-use endpoints across every known x402 service registry in one query.",
+  "repository": {
+    "url": "https://github.com/mapizarro1/foragex402",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://foragex402.tablint.dev/mcp"
+    }
+  ]
+}
